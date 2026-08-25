@@ -7,10 +7,13 @@ Source code: https://github.com/drake69/spendif-ai
 
 ```bash
 brew tap drake69/spendifai
+brew trust --cask drake69/spendifai/spendifai
 brew install --cask --no-quarantine spendifai
 ```
 
-`--no-quarantine` is required while the DMG ships unsigned.
+Homebrew 6 refuses to load casks from third-party taps until you trust them,
+hence the `brew trust` line. `--no-quarantine` is required while the DMG
+ships unsigned.
 
 ## Update
 
