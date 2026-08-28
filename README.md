@@ -1,13 +1,13 @@
 # Homebrew tap — Spendif.ai
 
 Personal finance manager with local AI categorisation.
-Source code: https://github.com/drake69/spendif-ai
+Source code: https://github.com/spendifai/spendif-ai
 
 ## Install
 
 ```bash
-brew tap drake69/spendifai
-brew trust --cask drake69/spendifai/spendifai
+brew tap spendifai/spendifai
+brew trust --cask spendifai/spendifai/spendifai
 brew install --cask --no-quarantine spendifai
 ```
 
