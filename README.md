@@ -8,12 +8,12 @@ Source code: https://github.com/spendifai/spendif-ai
 ```bash
 brew tap spendifai/spendifai
 brew trust --cask spendifai/spendifai/spendifai
-brew install --cask --no-quarantine spendifai
+brew install --cask spendifai
 ```
 
 Homebrew 6 refuses to load casks from third-party taps until you trust them,
-hence the `brew trust` line. `--no-quarantine` is required while the DMG
-ships unsigned.
+hence the `brew trust` line — it is unrelated to code signing. The DMG is
+signed with a Developer ID certificate and notarised by Apple.
 
 ## Update
 
