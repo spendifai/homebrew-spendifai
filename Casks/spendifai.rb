@@ -25,7 +25,7 @@
 
 cask "spendifai" do
   version "0.2.1"
-  sha256 "0484c01b1eedf231f8162f7813da73371f76aaaa7e3a98513a1de0d245464d6f"
+  sha256 "f8ff77bc0303904d8f0a713a781ffdff2bbffe40a22848e5f402980852653c8e"
 
   url "https://github.com/spendifai/spendif-ai/releases/download/v#{version}/SpendifAi-#{version}.dmg"
   name "Spendif.ai"
