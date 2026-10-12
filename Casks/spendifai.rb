@@ -26,8 +26,8 @@
 # when the author submits their own project. See backlog AI-305.
 
 cask "spendifai" do
-  version "0.3.3"
-  sha256 "bac1d0d4d37d13dac2a4bf93bc42dbe6d3cdcc07ab5f79b0d8b997fe01a49a2e"
+  version "0.3.4"
+  sha256 "20313bac917a22e3187761b0c38c5377d7422a810bcdd9d1139534be71ef5ecb"
 
   url "https://github.com/spendifai/spendif-ai/releases/download/v#{version}/SpendifAi-#{version}-arm64.dmg"
   name "Spendif.ai"
